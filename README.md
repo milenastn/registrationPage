@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="" width="900"/>
+  <img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-screenshot.png?raw=true" width="900"/>
   
-  <a href="">Demo</a>
+  <a href="https://registration-page-rose.vercel.app/">Demo</a>
   
   <h2>📝 Registration Page</h2>
 </div>
