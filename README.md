@@ -9,7 +9,7 @@
   </tr>
 </table>
   
-<a href="https://registration-page-rose.vercel.app/">Demo</a>
+<a href="stnmilena.github.io/registrationPage/">Demo</a>
   
   <h2>📝 Registration Page</h2>
 </div>
@@ -30,6 +30,7 @@
     </ul>
   </li>
   <li>Image slideshow</li>
+  <li>Image slideshow that supports swipe gestures</li>
   <li>Input animations on focus</li>
 </ul>
 
