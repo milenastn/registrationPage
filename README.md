@@ -3,9 +3,9 @@
 
  <table>
   <tr>
-    <td><img src="" width="268"/></td>
-    <td><img src="" width="268"/></td>
-    <td><img src="" width="268"/></td>
+    <td><img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-mobile-1.png?raw=true" width="268"/></td>
+    <td><img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-mobile-2.png?raw=true" width="268"/></td>
+    <td><img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-mobile-3.png?raw=true" width="268"/></td>
   </tr>
 </table>
   
