@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #f2f2f2;
+}
+
+div.container {
+    max-width: 50rem;
+    width: 100%;
+
+    margin: 1.6rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+section.slideshow {
+    position: relative;
+    width: 100%;
+    min-height: 25vh;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+}
+
+section.slideshow .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 0;
+}
+
+section.slideshow .slide-active {
+    opacity: 1;
+    z-index: 1;
+}
+
+section.slideshow .dots {
+    position: absolute;
+    bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+div.dots .dot {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: 0 0.2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+div.dots .dot-active {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+section.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.6rem;
+}
+
+section.content .previous-btn {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+section.content .previous-btn button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 10rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+section.content-form div.form-content {
+    height: 100%;
+}
+
+section.content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+form div.form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 100%;
+}
+
+form div.form-inputs div {
+    position: relative;
+    width: 100%;
+}
+
+form div.form-inputs label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    color: #828282;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.6s;
+}
+
+form div.form-inputs input {
+    width: 100%;
+    height: 4.4rem;
+    padding-inline: 1rem;
+    border: 1px solid #E0E0E0;
+    border-radius: 0.6rem;
+    background-color: #ffffff;
+    outline: none;
+}
+
+form div.form-inputs input:focus {
+    border: 1px solid #000000;
+    transition: 0.6s;
+}
+
+form div.form-inputs input:focus~label,
+div.form-inputs input:valid~label {
+    top: 0;
+    padding-inline: 0.6rem;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+form div.form-inputs div.name-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 100%;
+}
+
+form div.checkbox-input {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+
+form button {
+    all: unset;
+    height: 4.4rem;
+    margin-top: 3rem;
+    border-radius: 0.6rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+div.continue-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.continue-options span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+div.continue-options span::before,
+div.continue-options span::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 0.2rem;
+    width: 50%;
+    background-color: #E6E6E6;
+}
+
+div.continue-options .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+div.options .google-btn,
+div.options .facebook-btn {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    background-color: #EEEEEE;
+    cursor: pointer;
+}

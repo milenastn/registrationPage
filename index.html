@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="/styles/mobile.css">
+    <link rel="stylesheet" href="/styles/desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="slideshow">
+            <img class="slide slide-active" src="./assets/background1.jpg" alt="background 1">
+            <img class="slide" src="./assets/background2.jpg" alt="background 2">
+            <img class="slide" src="./assets/background3.jpg" alt="background 3">
+            <div class="dots" id="dots">
+                <span class="dot dot-active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="previous-btn">
+                <button type="button"><i class="fas fa-arrow-left"></i>Previous Page</button>
+            </div>
+            <div class="form-content">
+                <h1>Create an account</h1>
+                <span>Already have an account? <a href="#" style="cursor: pointer;">Login</a></span>
+                <form>
+                    <div class="form-inputs">
+                        <div class="name-inputs">
+                            <div>
+                                <input type="text" name="first-name" id="first-name" required>
+                                <label for="first-name">First Name</label>
+                            </div>
+                            <div>
+                                <input type="text" name="last-name" id="last-name" required>
+                                <label for="last-name">Last Name</label>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div>
+                            <input type="password" name="password" id="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="checkbox-input">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">I agree with the <a href="#" style="cursor: pointer;">Terms
+                                & Conditions</a></label>
+                    </div>
+
+                    <button type="submit">Create an account</button>
+                </form>
+                <div class="continue-options">
+                    <span>or</span>
+                    <div class="options">
+                        <button class="google-btn"><img src="/assets/google-logo.svg" alt="google logo">Continue with
+                            Google
+                        </button>
+                        <button class="facebook-btn"><img src="/assets/facebook-logo.svg" alt="facebook logo">Continue
+                            with
+                            Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>

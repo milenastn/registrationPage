@@ -1,0 +1,45 @@
+@media (min-width: 960px) {
+    div.container {
+        display: flex;
+        align-items: center;
+        max-width: 90rem;
+        height: 50rem;
+        gap: 1rem;
+    }
+
+    section.slideshow {
+        width: 50vw;
+        height: 100%;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    section.content {
+        width: 50vw;
+        height: 100%;
+    }
+
+    section.content .form-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    form div.form-inputs div.name-inputs {
+        flex-direction: row;
+    }
+
+    form div.form-inputs div.name-inputs div {
+        width: 50%;
+    }
+
+    div.continue-options .options {
+        flex-direction: row;
+    }
+
+    div.options .google-btn,
+    div.options .facebook-btn {
+        width: 100%;
+    }
+
+}
