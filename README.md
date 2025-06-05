@@ -9,7 +9,7 @@
   </tr>
 </table>
   
-<a href="stnmilena.github.io/registrationPage/">Demo</a>
+<a href="https://stnmilena.github.io/registrationPage/">Demo</a>
   
   <h2>📝 Registration Page</h2>
 </div>
