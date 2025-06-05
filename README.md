@@ -1,7 +1,15 @@
 <div align="center">
   <img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-screenshot.png?raw=true" width="900"/>
+
+ <table>
+  <tr>
+    <td><img src="" width="268"/></td>
+    <td><img src="" width="268"/></td>
+    <td><img src="" width="268"/></td>
+  </tr>
+</table>
   
-  <a href="https://registration-page-rose.vercel.app/">Demo</a>
+<a href="https://registration-page-rose.vercel.app/">Demo</a>
   
   <h2>📝 Registration Page</h2>
 </div>
