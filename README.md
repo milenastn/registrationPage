@@ -1,7 +1,15 @@
 <div align="center">
   <img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-screenshot.png?raw=true" width="900"/>
+
+ <table>
+  <tr>
+    <td><img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-mobile-1.png?raw=true" width="268"/></td>
+    <td><img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-mobile-2.png?raw=true" width="268"/></td>
+    <td><img src="https://github.com/stnmilena/registrationPage/blob/master/assets/registration-page-mobile-3.png?raw=true" width="268"/></td>
+  </tr>
+</table>
   
-  <a href="https://registration-page-rose.vercel.app/">Demo</a>
+<a href="https://sntmilena.github.io/registrationPage/">Demo</a>
   
   <h2>📝 Registration Page</h2>
 </div>
@@ -22,6 +30,7 @@
     </ul>
   </li>
   <li>Image slideshow</li>
+  <li>Image slideshow that supports swipe gestures</li>
   <li>Input animations on focus</li>
 </ul>
 
